@@ -76,7 +76,7 @@ const handleSubmit = async (e: React.FormEvent) => {
                                 required
                                 value={form.name}
                                   
-                            placeholder="e.g. Memory keeper, Code Copilot, Biz Helper"
+                            placeholder="e.g. Sales Assistant, Workflow Optimizer, Client Manager"
                                 onChange={(e) => setForm((f) => ({ ...f, name: e.target.value }))}
                             />
                         </div>
@@ -85,7 +85,7 @@ const handleSubmit = async (e: React.FormEvent) => {
                             <Label htmlFor="agent-description">Description</Label>
                             <Textarea
                                 id="agent-description"
-                                placeholder="e.g. Collects family stories, milestones, and advice — a living family journal."
+                                placeholder="e.g. Handles client communications, schedules meetings, and summarizes key insights to support your business operations."
                                 className="min-h-[100px]"
                                 value={form.description}
                                 onChange={(e) => setForm((f) => ({ ...f, description: e.target.value }))}
